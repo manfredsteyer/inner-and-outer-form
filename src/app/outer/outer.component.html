@@ -1,0 +1,9 @@
+
+<!-- inner Component -->
+<app-inner [formControl]="control"></app-inner>
+
+
+<h2>Outer</h2>
+<pre>
+    {{control.errors | json}}
+</pre>
